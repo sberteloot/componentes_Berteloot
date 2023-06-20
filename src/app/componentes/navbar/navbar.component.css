@@ -1,12 +1,22 @@
-.nav {
-    background-color: #f1f1f1;
-    /*height: 75vh;*/
-  }
- 
-  ul {
-    list-style: none; /* Remove HTML bullets */
+section {
+    background-color: rgb(186, 183, 176);
+    height: calc(100vh - var(--toolbar-h));
     padding: 0;
     margin: 0;
+  }
+
+  @media screen and (max-width: 576px) {
+    section {
+      height: calc(50vh - var(--toolbar-h));
+    }
+  }
+
+  h4{
+    padding-left: 10px;
+  }
+
+  ul {
+    list-style: none;
   }
   
   li { 

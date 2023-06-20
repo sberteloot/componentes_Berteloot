@@ -1,0 +1,7 @@
+.row {  
+    padding-left: 0;
+  }
+  
+  .row [class*='col']{
+    padding-left: 0;
+  }

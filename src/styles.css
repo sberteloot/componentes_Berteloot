@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --toolbar-h : 40px;
+}
+
+body {
+    margin: 0;
+    min-width: 250px;
+  }
+
+  @font-face {
+    font-family: 'CustomFont';
+    src: url('assets/fonts/Montserrat-Regular.ttf');
+  }  

@@ -1,4 +1,6 @@
-section{
+section {
     background-color: whitesmoke;
-    padding: 5px;
-}
+    height: calc(100vh - var(--toolbar-h));
+    padding: 0.5em;
+    margin: 0;
+  }
