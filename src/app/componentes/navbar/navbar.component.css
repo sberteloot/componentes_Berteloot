@@ -1,0 +1,22 @@
+.nav {
+    background-color: #f1f1f1;
+    /*height: 75vh;*/
+  }
+ 
+  ul {
+    list-style: none; /* Remove HTML bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  li { 
+    padding-left: 10px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+  }
